@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .aboutMe {
+                display: flex;
+                height: 50px;
+                padding: 0;
+                background: #009578;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+                overflow: hidden;
+                font-family: "Quicksand", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .aboutMe:hover {
+                background: #008168;
+            }
+
+            .aboutMe:active {
+                background: #006e58;
+            }
+
+            .aboutMe_text,
+            .aboutMe_icon {
+                display: inline-flex;
+                align-items: center;
+                padding: 0 24px;
+                color: #fff;
+                height: 100%;
+            }
+
+            .aboutMe_icon {
+                font-size: 1.5em;
+                background: #155c4e;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <center>
+                <small>
+                    Hat's website
+                </small>
+            </center>
+        </h1>
+        <p>
+            <center>
+                <hr size="" width="90%" color=#555555>
+                Welcome to Hat's website that magically appeared nowhere! 🪄<br/>
+                What brings you here in this majestic <b>Dimension</b>? 👀<br/>
+                Perhaps I can offer you ✨<b>Buttons</b>✨ :D
+                <hr size="" width="90%" color=#555555>
+                <button type="button" class="aboutMe" onclick="window.location.href='https://hatfluppyclouds.github.io/aboutMe.html';">
+                    <span class="aboutMe_text">About Me</span>
+                    <span class="aboutMe_icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </span>
+                </button>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            </center>
+        </p>
+    </body>
+</html>
